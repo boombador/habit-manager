@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+      "firstinstall": "sudo apt-get install g++ && BUILD_ONLY=true npm install nodegit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
